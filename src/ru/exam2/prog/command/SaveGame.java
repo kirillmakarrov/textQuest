@@ -17,7 +17,7 @@ public class SaveGame implements Menu {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
+        new StartGame(gameObject).execute();
 
     }
 }
