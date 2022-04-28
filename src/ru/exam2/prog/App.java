@@ -4,6 +4,6 @@ import ru.exam2.prog.command.Menu;
 
 public class App {
     public static void main(String[] args) {
-        Menu.getFirstCommand().execute();
+       GameList.startGame();
     }
 }

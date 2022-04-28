@@ -112,6 +112,9 @@ public class GameList {
             GameList.game(object);
         }
     }
+    public static void startGame(){
+        Menu.getFirstCommand().execute();
+    }
 
 
 }
