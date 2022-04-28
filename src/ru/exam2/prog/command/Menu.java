@@ -21,7 +21,7 @@ public interface Menu {
             return new Exit();
         }
         System.out.println("Введена некорректная команда");
-        return null;
+        return Menu.getFirstCommand();
     }
 
     static Menu getSecondCommand(GameObject gameObject) {
@@ -37,6 +37,6 @@ public interface Menu {
             return new Exit();
         }
         System.out.println("Введена некорректная команда");
-        return null;
+        return Menu.getSecondCommand(gameObject);
     }
 }
